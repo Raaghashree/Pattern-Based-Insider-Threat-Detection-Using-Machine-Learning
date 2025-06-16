@@ -50,3 +50,13 @@ This interface serves as a proof-of-concept for security analysts to understand 
 - It strengthens internal threat visibility where SIEM systems may be unavailable or limited in analytical capabilities.
 
 This detection framework provides a proactive and intelligent solution to detect insider threats in static or conventional IT infrastructures, offering scalable protection even in non-cloud-native contexts.
+
+# Future Enhancements
+
+- Real-Time Log Integration: Extend support for live ingestion from syslogs, Windows Event Logs, or SIEM connectors.
+
+- User Behavior Profiling (UBA): Incorporate session-level analysis to better capture context-based anomalies.
+
+- Alert Prioritization: Use risk-based scoring to rank incidents based on severity and asset criticality.
+
+- Integration Ready: Design for plug-and-play compatibility with existing monitoring tools such as Splunk, ELK Stack, or custom dashboards.
